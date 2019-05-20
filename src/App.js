@@ -27,11 +27,18 @@ You'll need to combine the cardIds array for the list with the allCards object.
 
 
 import React from 'react';
-import './App.css'
+import './App.css';
+import Card from './composition/Card';
+import List from './composition/List';
 
 function App() {
   return (
     <main className='App'>
+      <header class="App-header">
+        <h1>Trelloyes!</h1>
+      </header>
+      <div class="App-list">
+      </div>
       {/* content goes here */}
     </main>
   );
