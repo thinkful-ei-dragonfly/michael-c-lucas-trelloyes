@@ -1,3 +1,5 @@
+import React from 'react';
+
 const STORE = {
   lists: [
     {
@@ -37,3 +39,5 @@ const STORE = {
     'm': { id: 'm', title: 'Thirteenth card', content: 'lorem ipsum' },
   },
 }
+
+export default STORE;
